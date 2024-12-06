@@ -86,7 +86,10 @@ button {
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
+}
+
+.header-logo {
+  margin-right: 76px;
 }
 
 .nav-item-link {
@@ -237,7 +240,7 @@ button {
   color: #2e2f42;
 }
 
-.portfolio-title {
+.section-title {
   margin-bottom: 72px;
 }
 

@@ -131,6 +131,7 @@ button {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -139,9 +140,10 @@ button {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center;
-  padding-top: 188px;
   margin-bottom: 48px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-btn {
@@ -156,10 +158,7 @@ button {
   border-radius: 4px;
   border: none;
   padding: 16px 32px;
-}
-
-.cont-hero {
-  padding-bottom: 188px;
+  min-width: 169px;
 }
 
 .hero-btn:hover,
@@ -198,9 +197,6 @@ button {
   color: #434455;
 }
 
-.img-team {
-  margin-bottom: 32px;
-}
 .our-team {
   background-color: #f4f4fd;
 }
@@ -209,7 +205,6 @@ button {
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  padding-bottom: 32px;
   text-align: center;
 }
 
@@ -217,6 +212,19 @@ button {
   display: flex;
   gap: 24px;
   margin-top: 72px;
+}
+
+.cont-team {
+  padding: 32px 0;
+}
+
+.cont-team .text-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.cont-team .text {
+  text-align: center;
 }
 
 .section-title {
@@ -229,11 +237,14 @@ button {
   color: #2e2f42;
 }
 
+.portfolio-title {
+  margin-bottom: 72px;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  margin-top: 72px;
 }
 
 .portfolio-list-item {
@@ -253,6 +264,11 @@ button {
   padding-bottom: 100px;
 }
 
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-span {
   color: #f4f4fd;
 }
@@ -263,5 +279,4 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
 }
